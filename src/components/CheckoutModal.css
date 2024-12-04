@@ -1,0 +1,43 @@
+/* Styles for the Checkout Modal */
+.checkout-modal {
+    max-width: 500px; /* Set a maximum width for the modal */
+    width: 100%; /* Make it responsive */
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    gap: 15px; /* Space between form elements */
+}
+
+.card-element {
+    border: 1px solid #ccc; /* Light border around the card element */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the card element */
+    background-color: #f9f9f9; /* Light background for the card */
+}
+
+.pay-button {
+    background-color: #28a745; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 12px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 16px; /* Font size for the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.pay-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.modal-title {
+    text-align: center; /* Center the modal title */
+    font-weight: bold; /* Bold font for the title */
+    font-size: 24px; /* Font size for the title */
+}
+
+.modal-body {
+    padding: 20px; /* Padding inside modal body */
+}

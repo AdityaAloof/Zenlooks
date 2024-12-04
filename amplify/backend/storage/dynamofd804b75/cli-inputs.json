@@ -1,0 +1,10 @@
+{
+  "resourceName": "dynamofd804b75",
+  "tableName": "zenlooks",
+  "partitionKey": {
+    "fieldName": "n",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

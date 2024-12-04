@@ -1,0 +1,72 @@
+/* OurStores.css */
+.stores-container {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .stores-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .stores-description {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .store-card {
+    margin-bottom: 30px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .store-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .store-card .card-body {
+    padding: 20px;
+  }
+  
+  .store-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .store-card .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .map-container {
+    margin-top: 15px;
+  }
+  
+  .map-container iframe {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .store-card {
+      margin-bottom: 20px;
+    }
+  
+    .stores-title {
+      font-size: 2rem;
+    }
+  
+    .stores-description {
+      font-size: 1.1rem;
+    }
+  }
+  

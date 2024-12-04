@@ -1,0 +1,114 @@
+/* Existing footer styles */
+footer {
+  background-color: #0f3460; /* Dark blue background */
+  padding: 80px 0; /* Padding above and below */
+  color: #fff; /* White text color */
+  position: relative; /* Allow positioning of inner elements */
+  overflow: hidden; /* Prevent overflow issues */
+}
+
+footer .box {
+  padding: 0 20px; /* Horizontal padding for each box */
+}
+
+footer h1 {
+  margin: 0; /* No margin */
+  font-size: 25px; /* Heading size */
+  font-weight: 800; /* Bold font */
+  width: max-content; /* Width based on content */
+}
+
+footer .logo {
+  color: white; /* Logo color */
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center items vertically */
+  gap: 5px; /* Space between items */
+  margin-bottom: 20px; /* Space below logo */
+}
+
+footer h2 {
+  font-size: 20px; /* Size of subheadings */
+  margin-bottom: 10px; /* Space below subheadings */
+  text-transform: uppercase; /* Uppercase for headings */
+}
+
+footer .row {
+  justify-content: center; /* Center items in the row */
+}
+
+footer p {
+  font-size: 16px; /* Size of paragraph text */
+  margin-bottom: 20px; /* Space below paragraphs */
+  opacity: 0.7; /* Slightly reduced opacity */
+}
+
+footer ul {
+  padding: 0; /* Remove default padding */
+  list-style-type: none; /* No bullet points */
+}
+
+footer li {
+  margin-bottom: 10px; /* Space between list items */
+  opacity: 0.7; /* Reduced opacity for a subtle effect */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* New link styling */
+footer ul li a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Link size */
+  transition: opacity 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+footer ul li a:hover {
+  color: #ffffff; /* Color change on hover */
+  opacity: 1; /* Full opacity on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Highlight effect for footer items */
+footer li:hover {
+  opacity: 1; /* Full opacity on hover */
+  background-color: rgba(255, 110, 97, 0); /* Light highlight background color */
+}
+
+/* Centered footer bottom text */
+.footer-bottom {
+  text-align: center; /* Center align text */
+  margin-top: 20px; /* Space above */
+  font-size: 14px; /* Smaller font size */
+  opacity: 0.8; /* Slightly reduced opacity */
+  position: absolute; /* Position at the bottom */
+  bottom: 10px; /* Space from bottom */
+  left: 0; /* Align to left */
+  right: 0; /* Align to right */
+}
+
+.footer-highlight {
+  color: white; /* Change text color to white */
+  font-weight: bold; /* Make it bold */
+  font-size: 16px; /* Adjust font size */
+}
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  footer {
+    padding: 40px 0; /* Reduce padding on smaller screens */
+  }
+
+  footer h1 {
+    font-size: 22px; /* Slightly smaller heading */
+  }
+
+  footer h2 {
+    font-size: 18px; /* Slightly smaller subheading */
+  }
+
+  footer p {
+    font-size: 14px; /* Slightly smaller paragraph text */
+  }
+
+  footer ul li {
+    margin-bottom: 8px; /* Reduce space between list items */
+  }
+}

@@ -1,0 +1,23 @@
+.checkout-container {
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment-error {
+  color: red;
+  text-align: center;
+}
+
+.payment-success {
+  color: green;
+  text-align: center;
+}

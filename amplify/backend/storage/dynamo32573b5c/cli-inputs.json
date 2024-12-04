@@ -1,0 +1,10 @@
+{
+  "resourceName": "dynamo32573b5c",
+  "tableName": "dynamo32573b5c",
+  "partitionKey": {
+    "fieldName": "zenlooks",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+  background-color: #f7f7f7;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Container Styling */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.form-control {
+  height: 45px;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.form-control:focus {
+  border-color: #5cb85c;
+  box-shadow: none;
+}
+
+/* Button Styling */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+button[type="submit"] {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+button.outline-primary {
+  background-color: transparent;
+  color: #5cb85c;
+  border: 2px solid #5cb85c;
+}
+
+button.outline-primary:hover {
+  background-color: #5cb85c;
+  color: white;
+}
+
+button.cancel-btn {
+  background-color: transparent;
+  color: #999;
+  border: 2px solid #999;
+}
+
+button.cancel-btn:hover {
+  background-color: #999;
+  color: white;
+}
+
+/* Spacing */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Link Styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
